@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const PhpOnLaravelPage = () => (
+const WorkshopPage = () => (
   <Layout>
     <SEO title="Workshop" keywords={[`modern web application`, `tutorial`]} />
     <h1>Workshop</h1>
@@ -27,11 +27,7 @@ const PhpOnLaravelPage = () => (
       <li>Front-End and Back-End Unit Testing</li>
       <li>Security through SSL</li>
     </ul>
-
-
-
-
   </Layout>
 );
 
-export default PhpOnLaravelPage;
+export default WorkshopPage;
