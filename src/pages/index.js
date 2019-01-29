@@ -8,6 +8,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`modern web application`, `tutorial`]} />
     <section>
       <h1>Purpose</h1>
+      <hr />
       <p>
         Web applications are becoming more and more complex as the industry matures.
         We’re seeing a large push towards performance, efficiency, and resiliency, which can sometimes come at the cost of developer satisfaction.
@@ -27,6 +28,7 @@ const IndexPage = () => (
     </section>
     <section>
       <h1>What is a Modern Web Application</h1>
+      <hr />
       <p>The definition of a modern development environment is constantly changing. We’re moving towards a more modular, performant, and resilient architectures when crafting our web applications. Let’s break these three higher-level goals down to create a list of criteria that each of our environments must maintain to be considered “modern”.</p>
 
       <dl>

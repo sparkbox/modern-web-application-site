@@ -4,7 +4,8 @@ import React from 'react'
 const Navigation = () => (
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/workshop">Workshop</Link></li>
       <li>
         Tutorials
         <ul>
